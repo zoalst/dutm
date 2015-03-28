@@ -1,0 +1,13 @@
+{
+  "name": "dutm!",
+  "version": "0.0.1",
+  "description": "Sound+Mouse Movement",
+  "main": "index.html",
+  "keywords": [
+    "noise",
+    "don't use the mouse",
+    "dutm"
+  ],
+  "author": "https://github.com/zacharystenger",
+  "license": "MIT"
+}
