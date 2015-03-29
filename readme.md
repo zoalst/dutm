@@ -6,7 +6,7 @@ dutm.js creates noise whenever the mouse pointer is moving. Use it to try and ge
 
 
 ## How to use
-  - just download [dutm.js](https://github.com/zacharystenger/dutm/blob/master/dutm.js) and [riffwave.js](http://www.codebase.es/riffwave/riffwave.js) and drop them into your directory and then...
+  - just download [dutm.js](https://github.com/zacharystenger/dutm/blob/master/js/dutm.js) or [dutm.min.js](https://github.com/zacharystenger/dutm/blob/master/js/dutm.min.js) along with [riffwave.js](http://www.codebase.es/riffwave/riffwave.js) and drop them into your directory and then...
 ````html
 <script type='text/javascript' src='js/dutm.js'></script>
 <script type='text/javascript' src='js/riffwave.js'></script>
