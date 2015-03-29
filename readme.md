@@ -11,7 +11,7 @@ dutm.js creates noise whenever the mouse pointer is moving. Use it to try and ge
 <script type='text/javascript' src='js/dutm.js'></script>
 <script type='text/javascript' src='js/riffwave.js'></script>
 <script>
-  dotm.noise()
+  dutm.noise()
 </script>
 ````
 
