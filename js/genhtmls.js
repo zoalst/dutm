@@ -9,7 +9,7 @@ var fs = require('fs');
 
 
 var funcList = ['noise','angryComputer','fax','wobbly',
-      'unknown','bird','abrasive','laser','interference'];
+      'unknown','bird','abrasive','laser','interference', 'helicopterHell', 'scaredRabbit'];
 createAllHTMLFiles(funcList);
 createIndexHTMLFile(funcList);
 
