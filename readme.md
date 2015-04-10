@@ -31,7 +31,8 @@ dutm.js creates noise whenever the mouse pointer is moving. Use it to try and ge
 ## Authors
 
 * Zachary Stenger
-* and a little from metasyn
+* Xander Johnson
+
 ## License
 
 MIT
