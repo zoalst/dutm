@@ -115,6 +115,32 @@
   	    var audio = new Audio(wave.dataURI); // create the HTML5 audio element
   	    audio.play();
       }, false);
-    }
+    },
+    helicopterHell: function(address){
+      document.addEventListener('mousemove', function(e){ 
+        var x = e.clientX || e.pageX; 
+        var y = e.clientY || e.pageY;
+        console.log(x+'  '+y); 
+        var data = [];
+        var rand = Math.random();
+        for (var i=0; i<1000; i++) data[i] = 128+Math.round(127*Math.tan(i/10)); 
+  		  var wave = new RIFFWAVE(data); // create the wave file
+  	    var audio = new Audio(wave.dataURI); // create the HTML5 audio element
+  	    audio.play();
+      }, false);
+    },
+    scaredRabbit: function(address){
+      document.addEventListener('mousemove', function(e){ 
+        var x = e.clientX || e.pageX; 
+        var y = e.clientY || e.pageY;
+        console.log(x+'  '+y); 
+        var data = [];
+        var rand = Math.random();
+        for (var i=0; i<1000; i++) data[i] = 128+Math.round(129*Math.asin(i/7)/y*y); 
+  		  var wave = new RIFFWAVE(data); // create the wave file
+  	    var audio = new Audio(wave.dataURI); // create the HTML5 audio element
+  	    audio.play();
+      }, false);
+    } 
   }
 })();

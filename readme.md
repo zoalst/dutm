@@ -25,10 +25,13 @@ dutm.js creates noise whenever the mouse pointer is moving. Use it to try and ge
   - abrasive()
   - laser()
   - interference()
-
+  - helicopterHell()
+  - scaredRabbit()
+ 
 ## Authors
 
 * Zachary Stenger
+* Xander Johnson
 
 ## License
 
